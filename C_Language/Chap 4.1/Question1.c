@@ -9,7 +9,7 @@ int main()
     result2 = --a;
 
     printf("Inctrement \t: %d\n", result1);
-    printf("Inctrement \t: %d\n", result2);
+    printf("Decrement \t: %d\n", result2);
 
     return 0;
 }
