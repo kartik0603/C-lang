@@ -12,7 +12,7 @@ int main()
     printf(" Enter the Second Angle of Triangle \t:");
     scanf("%d", &second_Angle);
 
-    result = (90 - first_Angle) + (90 - second_Angle);
+    result = (180 - first_Angle - second_Angle);
     printf(" Third Angle of Trinagle is \t : %d", result);
     return 0;
 }
