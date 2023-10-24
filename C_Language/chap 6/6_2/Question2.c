@@ -1,3 +1,5 @@
+// a Program to find the maximum number from the given 4 numbers using nested if else.
+
 #include <stdio.h>
 int main()
 {

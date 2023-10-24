@@ -1,3 +1,5 @@
+// Program to find the minimum number from the  3 numbers using nested if else
+
 #include <stdio.h>
 int main()
 {
