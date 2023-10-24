@@ -7,15 +7,15 @@ int main()
 
     printf(" Enter The Value of First Number a \t :");
     scanf("%d", &a);
-    printf(" Enter The Value of First Number b \t :");
+    printf(" Enter The Value of Second Number b \t :");
     scanf("%d", &b);
-    printf(" Enter The Value of First Number c \t :");
+    printf(" Enter The Value of Third Number c \t :");
     scanf("%d", &c);
-    printf(" Enter The Value of First Number d \t :");
+    printf(" Enter The Value of Fourth Number d \t :");
     scanf("%d", &d);
-    printf(" Enter The Value of First Number e \t :");
+    printf(" Enter The Value of Fifth Number e \t :");
     scanf("%d", &e);
-    printf(" Enter The Value of First Number f \t :");
+    printf(" Enter The Value of Sixth Number f \t :");
     scanf("%d", &f);
 
     if (a < b)
