@@ -36,31 +36,35 @@
 int main()
 {
     float a;
-    float result1, result2, result3, result4;
+    float result,
+        finalBill;
 
     printf(" Enter Your Elctricity UNIT \t : ");
     scanf("%f", &a);
 
-    if (a <= 50)
+    if (a >= 0 && a <= 50)
     {
-        result1 = a * 0.50;
-        printf(" Your Electricity BILL is %.2f \t : \n", result1);
+        result = a * 0.50;
+        printf(" Your Electricity BILL is %.2f \t : \n", result);
     }
-    else if (a <= 100)
+    else if (a >= 51 && a <= 150)
     {
-        result2 = result1 + (a - 50) * 0.75;
-        printf(" Your Electricity BILL is %.2f \t : \n", result2);
+        result = 25 + (a - 50) * 0.75;
+        printf(" Your Electricity BILL is %.2f \t : \n", result);
     }
-    else if (a >= 100)
+    else if (a >= 151 && a <= 250)
     {
-        result3 = result2 + (a - 100) * 1.20;
-        printf(" Your Electricity BILL is %.2f \t : \n", result3);
+        result = 100 + (a - 150) * 1.20;
+        printf(" Your Electricity BILL is %.2f \t : \n", result);
     }
     else
     {
-        result4 = result3 + (a - 200) * 1.50;
-        printf(" Your Electricity BILL is %.2f \t : \n", result4);
+        result = 220 + (a - 250) * 1.50;
+        printf(" Your Electricity BILL is %.2f \t : \n", result);
     }
+
+    finalBill = (result * 0.2) + result;
+    printf(" Your Final Elecricity Bill Included Surcharge with 20 Percentage is \t : %.2f   \n", finalBill);
 
     return 0;
 }
