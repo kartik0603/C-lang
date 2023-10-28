@@ -254,9 +254,9 @@ int main()
             break;
         case 3:
             printf(" YOUR >>>\t TOLLYWOOD COMEDY \t<<< Movies are \n \n");
-            printf("\t Press 1 \t For  >>>\t  RANGABALI \t<<< Movie Ticket Booking \t : \n ");
-            printf("\t Press 2 \t For  >>>\t  O SAATHIYA  \t<<< Movie Ticket Booking \t : \n ");
-            printf("\t Press 3 \t For  >>>\t KUSHI \t<<< Movie Ticket Booking \t : \n ");
+            printf("\t Press 1 \t For  >>>\t  RANGABALI        \t<<< Movie Ticket Booking \t : \n ");
+            printf("\t Press 2 \t For  >>>\t  O SAATHIYA       \t<<< Movie Ticket Booking \t : \n ");
+            printf("\t Press 3 \t For  >>>\t  KUSHI             \t<<< Movie Ticket Booking \t : \n ");
             printf("\t Press 4 \t For  >>>\t  SAMAJAVARAGAMANA \t<<< Movie Ticket Booking \t : \n ");
             scanf("%d", &k);
 
@@ -313,10 +313,10 @@ int main()
         return 1;
     }
 
-    printf(" ***___---___>>> \t Choose CLASS \t <<<___---___*** \n \n\n");
-    printf(" FOR ***___---___>>>\t PREMIUM CLASS Rs:- 230/- \t <<<___---___***           ( Press 1) \n ");
-    printf(" FOR ***___------___>>>\t EXECUTIVE CLASS Rs:- 210/- \t <<<___---___***           ( Press 2) \n ");
-    printf(" FOR ***___---___>>>\t NORMAL CLASS    Rs:- 180/- \t <<<___---___***           ( Press 3) \n ");
+    printf(" ***___---___>>>        \t Choose CLASS               \t <<<___---___*** \n \n\n");
+    printf(" FOR ***___---___>>>    \t PREMIUM CLASS Rs:- 230/-   \t <<<___---___***           ( Press 1) \n ");
+    printf(" FOR ***___------___>>> \t EXECUTIVE CLASS Rs:- 210/- \t <<<___---___***           ( Press 2) \n ");
+    printf(" FOR ***___---___>>>    \t NORMAL CLASS    Rs:- 180/- \t <<<___---___***           ( Press 3) \n ");
     scanf("%d", &class_choice);
 
     switch (class_choice)
