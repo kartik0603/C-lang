@@ -313,7 +313,7 @@ int main()
         return 1;
     }
 
-    printf(" ***___---___>>>        \t Choose CLASS               \t <<<___---___*** \n \n\n");
+    printf(" ***___---___>>>        \t Choose CLASS               \t <<<___---___*** \n \n");
     printf(" FOR ***___---___>>>    \t PREMIUM CLASS Rs:- 230/-   \t <<<___---___***           ( Press 1) \n ");
     printf(" FOR ***___------___>>> \t EXECUTIVE CLASS Rs:- 210/- \t <<<___---___***           ( Press 2) \n ");
     printf(" FOR ***___---___>>>    \t NORMAL CLASS    Rs:- 180/- \t <<<___---___***           ( Press 3) \n ");
@@ -339,10 +339,15 @@ int main()
     }
 
     printf(" ***___---___>>> \t FOOD & BEVERAGES\t <<<___---___*** \n \n\n");
-    printf(" FOR ***___---___>>>\t POPCORN Rs:- 99/- \t <<<___---___***           ( Press 1) \n ");
-    printf(" FOR ***___---___>>>\t SAMOSA Rs:- 49/- \t <<<___---___***           ( Press 2) \n ");
-    printf(" FOR ***___---___>>>\t THUMS-UP  Rs:- 39/- \t <<<___---___***           ( Press 3) \n ");
-    printf(" FOR ***___---___>>>\t COCA-COLA  Rs:- 39/- \t <<<___---___***           ( Press 4) \n ");
+    printf(" FOR ***___---___>>>\t POPCORN                  Rs:- 99/-   \t <<<___---___***           ( Press 1) \n ");
+    printf(" FOR ***___---___>>>\t SAMOSA                   Rs:- 49/-   \t <<<___---___***           ( Press 2) \n ");
+    printf(" FOR ***___---___>>>\t THUMS-UP                 Rs:- 39/-   \t <<<___---___***           ( Press 3) \n ");
+    printf(" FOR ***___---___>>>\t COCA-COLA                Rs:- 39/-   \t <<<___---___***           ( Press 4) \n ");
+    printf(" FOR ***___---___>>>\t COCA-COLA    &  POPCARN  Rs:- 120/-  \t <<<___---___***           ( Press 5) \n ");
+    printf(" FOR ***___---___>>>\t COCA-COLA    &  SAMOSA   Rs:- 70/-   \t <<<___---___***           ( Press 6) \n ");
+    printf(" FOR ***___---___>>>\t THUMS -UP    &  SAMOSA   Rs:- 70/-   \t <<<___---___***           ( Press 7) \n ");
+    printf(" FOR ***___---___>>>\t THUMS -UP    &  POPCORN  Rs:-130/-   \t <<<___---___***           ( Press 8) \n ");
+
     scanf("%d", &food_choice);
 
     switch (food_choice)
@@ -363,6 +368,25 @@ int main()
         printf("\t You Choose  >>>\t COCA-COLA  Rs:- 39/-   \t<<<   \t : \n ");
         food_price = 39.0;
         break;
+
+    case 5:
+        printf("\t You Choose  >>>\t COCA-COLA    &  POPCARN  Rs:- 120/- \t<<<   \t : \n ");
+        food_price = 120.0;
+        break;
+    case 6:
+        printf("\t You Choose  >>>\t COCA-COLA    &  SAMOSA   Rs:- 70/- \t<<<   \t : \n ");
+        food_price = 70.0;
+        break;
+    case 7:
+        printf("\t You Choose  >>>\t  THUMS -UP    &  SAMOSA   Rs:- 70/ \t<<<   \t : \n ");
+        food_price = 70.0;
+        break;
+
+    case 8:
+        printf("\t You Choose  >>>\t THUMS -UP    &  POPCORN  Rs:-130/-  \t<<<   \t : \n ");
+        food_price = 130.0;
+        break;
+
     default:
         printf("INVALID ENTRY\n");
         return 1;
