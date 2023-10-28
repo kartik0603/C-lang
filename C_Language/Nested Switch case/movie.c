@@ -389,7 +389,7 @@ int main()
 
     default:
         printf("INVALID ENTRY\n");
-        return 1;
+        break;
     }
 
     total_Bill = ((class_price + food_price) * 0.18 + class_price + food_price);
