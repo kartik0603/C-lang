@@ -101,7 +101,7 @@ int main()
         {
         case 1:
             printf(" YOUR >>>\t BOLLYWOOD ACTION \t<<< Movies are \n \n");
-            printf("\t Press 1 \t For  >>>\t  EXTRA \t<<< Movie Ticket Booking \t : \n ");
+            printf("\t Press 1 \t For  >>>\t  GANPATH \t<<< Movie Ticket Booking \t : \n ");
             scanf("%d", &f);
 
             switch (f)
@@ -288,10 +288,10 @@ int main()
     }
 
     printf(" ***___---___>>> \t Choose THEATER \t <<<___---___*** \n \n\n");
-    printf(" FOR ***___---___>>>\t RUPALI CINEMA \t <<<___---___***           ( Press 1) \n ");
-    printf(" FOR ***___---___>>>\t PVR RAHUL RAJ \t <<<___---___***           ( Press 2) \n ");
-    printf(" FOR ***___---___>>>\t CINEPOLIS \t <<<___---___***               ( Press 3) \n ");
-    printf(" FOR ***___---___>>>\t INOX RELIANCE MALL \t <<<___---___***      ( Press 4) \n ");
+    printf(" FOR ***___---___>>>\t RUPALI CINEMA        \t       <<<___---___***        ( Press 1) \n ");
+    printf(" FOR ***___---___>>>\t PVR RAHUL RAJ        \t       <<<___---___***        ( Press 2) \n ");
+    printf(" FOR ***___---___>>>\t CINEPOLIS            \t       <<<___---___***        ( Press 3) \n ");
+    printf(" FOR ***___---___>>>\t INOX RELIANCE MALL   \t       <<<___---___***        ( Press 4) \n ");
     scanf("%d", &theater_choice);
 
     switch (theater_choice)
