@@ -1,3 +1,5 @@
+// Q.3 Write a Program to print 1 to N using a while loop
+
 #include <stdio.h>
 int main()
 {
