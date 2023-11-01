@@ -1,3 +1,47 @@
+// Q.2 Write a Program to create a menu-driven program for Telecom call service conversation using nested switch case.
+// For example,
+// Press 1 for English
+// Press 2 for Hindi
+// Press 3 for Gujarati
+// Enter your choice: 1
+
+// Press 1 for Internet Recharge
+// Press 2 for Top-up Recharge
+// Press 3 for Special Recharge
+// Enter your choice: 2
+
+// You have successfully done Top-up Recharge.
+
+// ---------------------------------------------
+
+// For example,
+// Press 1 for English
+// Press 2 for Hindi
+// Press 3 for Gujarati
+// Enter your choice: 2
+
+// Internet Recharge ke liye 1 dabaiye
+// Top-up Recharge ke liye 2 dabaiye
+// Special Recharge ke liye 3 dabaiye
+// Enter your choice: 1
+
+// Aapne safaltapurvak Internet Recharge kar liya he.
+
+// ---------------------------------------------
+
+// For example,
+// Press 1 for English
+// Press 2 for Hindi
+// Press 3 for Gujarati
+// Enter your choice: 3
+
+// Internet Recharge mate 1 dabavo
+// Top-up Recharge mate 2 dabavo
+// Special Recharge mate 3 dabavo
+// Enter your choice: 3
+
+// Tame safaltapurvak Special Recharge karyu chhe.
+
 #include <stdio.h>
 int main()
 {
