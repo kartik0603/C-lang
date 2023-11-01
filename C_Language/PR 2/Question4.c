@@ -1,3 +1,5 @@
+// Q.4 Write C program uses a switch statement. Display Monday to Sunday.
+
 #include <stdio.h>
 int main()
 {

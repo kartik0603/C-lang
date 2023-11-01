@@ -1,3 +1,4 @@
+// Q.1 Write C program to input any character and check whether it is the alphabet , digit or special character
 
 #include <stdio.h>
 int main()
