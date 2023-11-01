@@ -1,3 +1,5 @@
+// Q.4 Write a Program to find the formula's answer (x-y)^2.
+
 #include <stdio.h>
 int main()
 {
