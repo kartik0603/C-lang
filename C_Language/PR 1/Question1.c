@@ -1,3 +1,6 @@
+// Q.1 Write a Program to convert temperature from degrees Celsius to Fahrenheit.
+// Use formula for °C to °F is: ° F = ( °C × 9/5 ) + 32
+
 #include <stdio.h>
 
 int main()

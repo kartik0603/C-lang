@@ -1,3 +1,5 @@
+// Q.2 Write C Program to find gross salary by adding % of HRA, DA, and TA of user choice.
+
 #include <stdio.h>
 int main()
 {
