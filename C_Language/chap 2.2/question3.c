@@ -1,3 +1,5 @@
+// Q.3 Write a Program to find the area of a triangle.
+
 #include <stdio.h>
 int main()
 {

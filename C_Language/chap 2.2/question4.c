@@ -1,3 +1,5 @@
+// Q.4 Write a Program to find Simple interest.
+
 #include <stdio.h>
 int main()
 {

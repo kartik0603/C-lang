@@ -1,3 +1,5 @@
+// Q.2 Write a Program to find the area of a rectangle.
+
 #include <stdio.h>
 int main()
 {
