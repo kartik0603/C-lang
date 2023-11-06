@@ -1,3 +1,5 @@
+// Multiplication Talr Using For loop
+
 #include <stdio.h>
 int main()
 {

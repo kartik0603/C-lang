@@ -5,6 +5,7 @@
 int main()
 {
     int i, n;
+    int j;
     printf("Enter any number: ");
     scanf("%d", &n);
 
@@ -14,13 +15,13 @@ int main()
         return 0;
     }
 
-    printf("Prime numbers up to %d are: ", n);
+    printf("Prime numbers 1 to %d are: ", n);
 
     for (i = 2; i <= n; i++)
     {
         int prime = 1;
 
-        for (int j = 2; j <= i / 2; j++)
+        for (j = 2; j <= i / 2; j++)
         {
             if (i % j == 0)
             {
@@ -31,7 +32,7 @@ int main()
 
         if (prime)
         {
-            printf("%d, ", i);
+            printf("%d ", i);
         }
     }
 
