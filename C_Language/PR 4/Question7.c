@@ -1,14 +1,15 @@
 /*
-Q.6 Write a Program to print the below pattern using nested for loop.
-    5
-   454
-  34543
- 2345432
-123454321
- 2345432
-  34543
-   454
-    5
+Q.7 Write a Program to print the below pattern using nested for loop.
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+
 */
 
 #include <stdio.h>
@@ -24,11 +25,11 @@ int main()
         }
         for (j = i; j <= 5; j++)
         {
-            printf("%d", j);
+            printf("*");
         }
         for (j = 4; j >= i; j--)
         {
-            printf("%d", j);
+            printf("*");
         }
         printf("\n");
     }
@@ -40,11 +41,11 @@ int main()
         }
         for (j = i; j <= 5; j++)
         {
-            printf("%d", j);
+            printf("*");
         }
         for (j = 4; j >= i; j--)
         {
-            printf("%d", j);
+            printf("*");
         }
         printf("\n");
     }
