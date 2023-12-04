@@ -1,0 +1,1 @@
+/* Q.3 Write a Program to perform the addition operation of two 1D arrays & store it in another array. Keep in mind that both array sizes must be the same.*/

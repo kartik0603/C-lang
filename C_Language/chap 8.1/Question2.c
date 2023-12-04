@@ -1,0 +1,1 @@
+/* Q.2 Write a Program to find the average of a 1D array.*/
