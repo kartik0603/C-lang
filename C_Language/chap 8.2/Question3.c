@@ -1,0 +1,1 @@
+/* Q.3 Write a Program to find square of each element from the given array */
