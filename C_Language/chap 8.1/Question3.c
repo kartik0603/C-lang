@@ -25,13 +25,13 @@ int main()
     printf(" A's Array Elements\t:\n");
     for (i = 0; i < n; i++)
     {
-        printf("%d\n", a[i]);
+        printf("a[%d] = %d\n", i, a[i]);
     }
 
     printf(" B's Array Elements\t:\n");
     for (i = 0; i < n; i++)
     {
-        printf("%d\n", b[i]);
+        printf("b[%d] = %d\n", i, b[i]);
     }
 
     for (i = 0; i < n; i++)
@@ -40,7 +40,7 @@ int main()
     }
     for (i = 0; i < n; i++)
     {
-        printf("  Array C is \t: c[%d]\n", c[i]);
+        printf("  Array C[%d] is \t: c[%d]\n", i, c[i]);
     }
 
     return 0;

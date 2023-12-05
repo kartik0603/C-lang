@@ -19,7 +19,7 @@ int main()
     printf("Array Elements\t:\n");
     for (i = 0; i < n; i++)
     {
-        printf("%d\n", a[i]);
+        printf("a[%d]=%d\n", i, a[i]);
     }
 
     int length = sizeof(a) / sizeof(a[0]);

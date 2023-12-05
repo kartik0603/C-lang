@@ -19,17 +19,17 @@ int main()
     printf("Array Elements\t:\n");
     for (i = 0; i < n; i++)
     {
-        printf("%d\n", a[i]);
+        printf("a[%d]=%d\n", i, a[i]);
     }
 
-    int sum = 0, average;
+    float sum = 0, average;
     for (i = 0; i < n; i++)
     {
         sum += a[i];
     }
 
     average = sum / n;
-    printf(" The Average of an Array\t: %d", average);
+    printf(" The Average of an Array\t: %.2f", average);
 
     return 0;
 }
