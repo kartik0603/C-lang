@@ -1,0 +1,1 @@
+/* Q.4 Write a Program to print and find the sum of all boundary elements from a given 5x5 2D array. */
