@@ -4,21 +4,21 @@
 
 int main()
 {
-    // int row, column;
+    int row, column;
 
-    // printf("Enter ROW Size: ");
-    // scanf("%d", &row);
+    printf("Enter ROW Size: ");
+    scanf("%d", &row);
 
-    // printf("Enter COLUMN Size: ");
-    // scanf("%d", &column);
+    printf("Enter COLUMN Size: ");
+    scanf("%d", &column);
 
     int a[5][5];
     int i, j, sum = 0;
     float average;
 
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < row; i++)
     {
-        for (j = 0; j < 5; j++)
+        for (j = 0; j < column; j++)
         {
             printf("Enter Element at position [%d][%d]: ", i, j);
             scanf("%d", &a[i][j]);
@@ -27,21 +27,13 @@ int main()
     }
 
     printf("Matrix elements:\n");
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < row; i++)
     {
-        for (j = 0; j < 5; j++)
+        for (j = 0; j < column; j++)
         {
-            if (
+            if
 
-                ((i == 0) && (j >= 0 && j <= 4)) ||
-
-                ((i == 4) && (j >= 0 && j <= 4)) ||
-
-                ((j == 0) && (i >= 0 && i <= 4)) ||
-
-                ((j == 4) && (i >= 0 && i <= 4))
-
-            )
+                (i == 0 || j == 0 || i == row - 1 || j == column - 1)
 
             {
                 printf("%d ", a[i][j]);
@@ -55,21 +47,13 @@ int main()
         printf("\n");
     }
 
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < row; i++)
     {
-        for (j = 0; j < 5; j++)
+        for (j = 0; j < column; j++)
         {
-            if (
+            if
 
-                ((i == 0) && (j >= 0 && j <= 4)) ||
-
-                ((i == 4) && (j >= 0 && j <= 4)) ||
-
-                ((j == 0) && (i >= 0 && i <= 4)) ||
-
-                ((j == 4) && (i >= 0 && i <= 4))
-
-            )
+                (i == 0 || j == 0 || i == row - 1 || j == column - 1)
 
             {
                 sum += a[i][j];
