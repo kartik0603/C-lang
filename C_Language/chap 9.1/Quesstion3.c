@@ -1,4 +1,7 @@
+/* Write a Program to convert the given string in toggle case without using any string function.*/
+
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {

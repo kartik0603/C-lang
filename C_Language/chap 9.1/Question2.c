@@ -1,3 +1,8 @@
+
+/* Q.2 Write a Program to convert the given string in lowercase without using any string function.*/
+
+
+
 #include <stdio.h>
 #include <string.h>
 
