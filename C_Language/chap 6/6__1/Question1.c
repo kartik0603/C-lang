@@ -1,3 +1,5 @@
+// Q.1 Write a Program to find the minimum number from the given 2 numbers using if else.
+
 #include <stdio.h>
 int main()
 {

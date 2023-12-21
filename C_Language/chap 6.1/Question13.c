@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main()
 {
-    int num, original, remainder, result = 0;
+    int num, original, remainder, result = 0, mul;
     printf("Enter any 3 digit NUMBER \t: ");
     scanf("%d", &num);
     original = num;
@@ -13,7 +13,8 @@ int main()
 
         remainder = original % 10;
 
-        result = (remainder * remainder * remainder) + result;
+        mul = (remainder * remainder * remainder);
+        result = result + mul;
 
         original /= 10;
     }

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Red and White/C Language",
-      "program": "d:/Red and White/C Language/build/Debug/outDebug",
+      "cwd": "d:/Red and White/C_Language/Chap 1",
+      "program": "d:/Red and White/C_Language/Chap 1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -1,5 +1,1 @@
- // if (startYear > endYear)
-    // {
-    //     printf("Starting year should be less than or equal to the ending year.\n");
-    //     return 1;
-    // }
+// To Check Number is Prime Number Or Not
