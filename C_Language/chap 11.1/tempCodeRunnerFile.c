@@ -1,1 +1,0 @@
-Program to find the square of each element of a given 1D array using a Pointer.
