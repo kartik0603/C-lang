@@ -5,10 +5,10 @@ int main()
 {
     int n;
     // printf(" Enter Number\t:");
-    n = getInt();
+    n = getArrayLength();
 
     int arr[n];
 
     arrayInput(arr, n);
-    arrayOutput(arr, n);
+    arrayMax(arr, n);
 }

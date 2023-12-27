@@ -1,24 +1,31 @@
 #include <stdio.h>
 
-int getInt()
+int getArrayLength()
 {
     int n;
-    double arr[100];
     printf(" Enter Number  (1 to 100)\t:");
     scanf("%d", &n);
     return n;
 }
+
+int getInt()
+{
+    int n;
+    scanf("%d", &n);
+    return n;
+}
+
 void arrayInput(int arr[], int n)
 {
     int i;
     for (i = 0; i < n; i++)
     {
-        printf(" Enter Number  %d\t:", i);
+        printf("Enter Number  %d\t:", i);
         arr[i] = getInt();
     }
 }
 
-void arrayOutput(int arr[], int n)
+void arrayMax(int arr[], int n)
 {
     int i;
 
