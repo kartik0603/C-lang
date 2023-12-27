@@ -1,3 +1,7 @@
+/* Q.1 Write a Program to find the reverse of a 1D array using a Chain of Pointers.*/
+
+
+
 #include <stdio.h>
 #include "function.c"
 
