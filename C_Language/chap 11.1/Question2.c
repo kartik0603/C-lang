@@ -5,7 +5,7 @@ Q.2 Write a Program to swap two variables using Pointers.*/
 #include <stdio.h>
 int main()
 {
-    int n, i;
+
     int a, b;
     int *ptr;
     ptr = &a;
